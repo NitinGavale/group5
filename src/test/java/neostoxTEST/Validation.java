@@ -19,9 +19,7 @@ import neostoxPOM.NeostoxPasswordPage;
 import neostoxUtility.NewUtility;
 import neostoxUtility.Utility;
 
-
-
-         @Listeners(neostoxBase.Listener.class)
+@Listeners(neostoxBase.Listener.class)
          
        public class Validation extends NewBase {
     	   
