@@ -58,7 +58,7 @@ import neostoxUtility.Utility;
         	 
     }
          
-     @Test
+         @Test
          public void validateUserName() throws EncryptedDocumentException, IOException
          {
         	 
@@ -76,7 +76,6 @@ import neostoxUtility.Utility;
         	 Utility.screenshot(driver, "accountBalane");
         	 
          }
-         
          
          
          @AfterMethod
