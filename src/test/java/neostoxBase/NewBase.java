@@ -26,9 +26,7 @@ public class NewBase {
     
     Reporter.log("Launching browser...", true);  
     
-    Reporter.log("hiii...", true);  
-    Reporter.log("Launching browser...", true);   
-    Reporter.log("Launching browser...", true);  
+    
     
    driver.get(NewUtility.readdataFromPropertyFile("url"));
    
