@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching browser...]]>
+    </line>
+    <line>
+      <![CDATA[Reading  url from property file...]]>
+    </line>
+    <line>
+      <![CDATA[Reading  moNumber from property file...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 3000ms]]>
+    </line>
+    <line>
+      <![CDATA[Reading  password from property file...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering password ...]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button...]]>
+    </line>
+    <line>
+      <![CDATA[Handling popup...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on OK button...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Close button...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000ms]]>
+    </line>
+    <line>
+      <![CDATA[getting account balnace...]]>
+    </line>
+    <line>
+      <![CDATA[Account balnace is Rs.5,00,000.00]]>
+    </line>
+    <line>
+      <![CDATA[taking screenshot ...]]>
+    </line>
+    <line>
+      <![CDATA[Test Case validateAccountBalance is Copmpleted Successfuly...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000ms]]>
+    </line>
+    <line>
+      <![CDATA[Logging out...]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-31T13:59:35 IST" name="Suite" finished-at="2022-12-31T14:00:24 IST" duration-ms="48261">
+    <groups>
+    </groups>
+    <test started-at="2022-12-31T13:59:35 IST" name="Test" finished-at="2022-12-31T14:00:24 IST" duration-ms="48261">
+      <class name="neostoxTEST.Validation">
+        <test-method is-config="true" signature="launchNeostox()[pri:0, instance:neostoxTEST.Validation@1ffaf86]" started-at="2022-12-31T13:59:35 IST" name="launchNeostox" finished-at="2022-12-31T14:00:03 IST" duration-ms="27259" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser...]]>
+            </line>
+            <line>
+              <![CDATA[Reading  url from property file...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeostox -->
+        <test-method is-config="true" signature="loginNeostox()[pri:0, instance:neostoxTEST.Validation@1ffaf86]" started-at="2022-12-31T14:00:03 IST" name="loginNeostox" finished-at="2022-12-31T14:00:22 IST" duration-ms="19540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading  moNumber from property file...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn button...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 3000ms]]>
+            </line>
+            <line>
+              <![CDATA[Reading  password from property file...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering password ...]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button...]]>
+            </line>
+            <line>
+              <![CDATA[Handling popup...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on OK button...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Close button...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginNeostox -->
+        <test-method signature="validateAccountBalance()[pri:0, instance:neostoxTEST.Validation@1ffaf86]" started-at="2022-12-31T14:00:22 IST" name="validateAccountBalance" finished-at="2022-12-31T14:00:23 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 1000ms]]>
+            </line>
+            <line>
+              <![CDATA[getting account balnace...]]>
+            </line>
+            <line>
+              <![CDATA[Account balnace is Rs.5,00,000.00]]>
+            </line>
+            <line>
+              <![CDATA[taking screenshot ...]]>
+            </line>
+            <line>
+              <![CDATA[Test Case validateAccountBalance is Copmpleted Successfuly...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAccountBalance -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:neostoxTEST.Validation@1ffaf86]" started-at="2022-12-31T14:00:23 IST" name="logOut" finished-at="2022-12-31T14:00:23 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 2000ms]]>
+            </line>
+            <line>
+              <![CDATA[Logging out...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neostoxTEST.Validation@1ffaf86]" started-at="2022-12-31T14:00:23 IST" name="closeBrowser" finished-at="2022-12-31T14:00:24 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- neostoxTEST.Validation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

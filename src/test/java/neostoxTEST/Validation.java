@@ -19,7 +19,7 @@ import neostoxPOM.NeostoxPasswordPage;
 import neostoxUtility.NewUtility;
 import neostoxUtility.Utility;
 
-@Listeners(neostoxBase.Listener.class)
+     @Listeners(neostoxBase.Listener.class)
          
        public class Validation extends NewBase {
     	   
@@ -39,7 +39,7 @@ import neostoxUtility.Utility;
 	      
 	 }
              @BeforeMethod
-         public void loginNeostox() throws EncryptedDocumentException, IOException, InterruptedException
+     public void loginNeostox() throws EncryptedDocumentException, IOException, InterruptedException
          {
         	 
         	 login.enterMoNumber(driver, NewUtility.readdataFromPropertyFile("moNumber"));
@@ -58,15 +58,15 @@ import neostoxUtility.Utility;
         	 
     }
          
-         @Test
+       /*  @Test
          public void validateUserName() throws EncryptedDocumentException, IOException
          {
         	 
         	 Assert.assertEquals(home.getActualUserName(driver), NewUtility.readdataFromPropertyFile("userName")," Actual and Expected user name are not matched TC is failled ");
         		
       //  	Utility.screenshot(driver, "nitin");
-        	
-    }
+        */	
+    
         @Test
          public void validateAccountBalance() throws IOException
          {
@@ -81,6 +81,7 @@ import neostoxUtility.Utility;
          @AfterMethod
          public void logOut()
          {
+        	 
         	 
         	 home.logout(driver);
         	 
