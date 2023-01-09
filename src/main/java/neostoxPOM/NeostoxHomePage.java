@@ -11,6 +11,12 @@ import neostoxUtility.Utility;
 public class NeostoxHomePage {
 	
 	
+	
+	
+	
+	
+	
+	
                 @FindBy(xpath="(//a[text()='OK'])[2]") private WebElement ok;
                 @FindBy(xpath="(//a[text()='Close'])[5]") private WebElement close;
                 @FindBy(id="lbl_username") private WebElement username;
