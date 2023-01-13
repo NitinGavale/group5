@@ -13,6 +13,16 @@ import neostoxUtility.Utility;
 public class NeostoxLoginPage {
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@FindBy(xpath="(//input [@type='number'])[1]")  private WebElement mobileNumber;;
 	@FindBy(id="lnk_signup1") private WebElement signup;
 	
